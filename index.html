@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v4consumer</title>
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="text-light" src="./assets/img/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Broadband</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mobile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pay My bill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- hero section with video -->
+    <section class="video-container ">
+        <video autoplay muted loop>
+
+            <source src="./assets/Desktop View_Video_V4 Consumer_Website Homepage_First Fold.mp4" type="video/mp4"
+                media="(min-width: 768px)">
+            <source type="video/mp4" src="./assets/Mobile View_Video_V4 Consumer_Website Homepage_First Fold.mp4">
+
+            <!-- Mobile video source -->
+            <source src="mobile-video.mp4" type="video/mp4">
+            <!-- Fallback content for unsupported browsers -->
+            Your browser does not support the video tag.
+        </video>
+        <div class="container mt-6 pb-5 mb-5">
+            <div class="col-11 col-md-6 col-lg-4">
+                <h1 class="text-light fw-bold display-6 poppins-semibold ">Experience High Speed
+                    Broadband</h1>
+                <form class="form col-11 col-md-10  mt-5">
+                    <div class="input-wraper position-relative">
+                        <input class="input" placeholder="Enter Your Postal Code..." type="text">
+                        <input class="go" type="button" value="Go!">
+                    </div>
+                    <input class="input mb-2" placeholder="Landline Number (Recommended)" type="text">
+                </form>
+                <div class="para text-light col-11 col-md-10">
+                    <span class="d-block">
+                        By clicking 'Go!' You're agreeing to V4Consumer
+                    </span>
+                    <span class="d-block">
+                        reaching out about broadband services. Explore
+                    </span>
+                    <span class="d-block">
+                        more in our privacy policy.
+                    </span>
+                </div>
+
+                <div class="img-trustpilot mt-5 col-10">
+                    <img src="./assets/img/trustpilot.png" alt="Trustpilot" srcset="">
+                    <p>Over <span class="yellow">653 reviews</span> <span>|</span> <span class="yellow">4.3</span> on
+                        Trustpilot</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="popular-deals">
+        <div class="container ">
+            <div class="row px-2">
+                <div id="owlCarousel" class="owl-carousel owl-theme">
+
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center mt-5 pt-4 py-2">
+                <button class="btn-yellow">Show More</button>
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+    <!-- form -->
+    <!-- form close -->
+
+    <section id="rating">
+        <div class="container">
+            <div class="d-flex text-center yellow justify-content-center">
+                <span class="d-inline-block yellow line"></span>
+                <h2> How do our customers rate us?</h2>
+
+            </div>
+
+            <div class="row mx-3">
+                <p class="text-center"><img src="./assets/img/trustpilot.png" class="img-fluid" alt="Trust Pilot"> </p>
+                <p class="text-center">Over <span class="yellow">653 reviews</span> <span>|</span> <span
+                        class="yellow">4.3</span> on
+                    Trustpilot</p>
+            </div>
+            <div>
+                <a href="https://uk.trustpilot.com/review/v4consumer.co.uk" target="_blank">
+                    <div class="col-md-11 col-sm-11 d-flex justify-content-between">
+                        <div class="progress " role="progressbar" aria-label="Animated striped example"
+                            aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 86%;">86%
+                            </div>
+                        </div>
+                        <img src="./assets/logov.png" class="" alt="V4Consumer">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer mt-5">
+        <div class="container d-flex flex-column flex-md-row">
+            <div class="col-12 col-md-3">
+                <h6 class="footer-heading"> Contact Info</h6>
+                <p><span class="icon-container"><i class="bi bi-phone-fill"></i></span> <span class="phone">0330 118
+                        8871</span></p>
+                <p class="hover-effect"><span class="icon-container"><i class="bi bi-envelope-fill"></i></span>
+                    support@v4consumer.co.uk</p>
+                <p>
+                    <span>V4 COnsumer</span><br />
+                    Cash's Business Centre<br />
+                    228 Widdrington Road,<br />
+                    Coventry CV1 4PB
+                </p>
+            </div>
+            <div class="col-12 col-md-3">
+                <h6 class="footer-heading">Legal</h6>
+                <ul>
+                    <li class="hover-effect">FAQ's</li>
+                    <li class="hover-effect">Complaints</li>
+                    <li class="hover-effect">Terms of Business</li>
+                    <li class="hover-effect">Terms of Website Use</li>
+                    <li class="hover-effect">Vulnerability & Accessibility</li>
+                    <li class="hover-effect">Bereavement Guide</li>
+                    <li class="hover-effect">privacy policy</li>
+                    <li class="hover-effect">Direct Debit Mandate - Notifications</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <h6 class="footer-heading">About Company</h6>
+                <ul>
+                    <li class="hover-effect">About Us</li>
+                    <li class="hover-effect">Contact Us</li>
+                    <li class="hover-effect">Our Blog</li>
+                    <li class="hover-effect">Code of Practice</li>
+                </ul>
+
+            </div>
+            <div class="col-12 col-md-3">
+
+                <h6 class="footer-heading">Regulated by</h6>
+                <a href="#">
+                    <img class="img-fluid" src="./assets/img/ombudsman.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex footer-end flex-column align-items-center flex-md-row ps-5 pe-3 py-3">
+        <div class="col-lg-4">
+            <img class="img-fluid bg-light" src="./assets/img/logo.png" alt="logo">
+        </div>
+        <div class="col-lg-4">
+            <span class="text-light"> &copy; Copyright 2024 V4 CONSUMER, All Rights Reserved. </span>
+        </div>
+        <div class="col-lg-4">
+            <div class="text-center">
+                <span class="social-link"><span class="social-icon">f</span></span>
+                <span class="social-link"><span class="social-icon">in</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- owl carousel js -->
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                // items: 3,
+                loop: true,
+                dots: true,
+                navText: ["<i class='bi bi-arrow-left-short icon-size'></i>", "<i class='bi bi-arrow-right-short icon-size'></i>"],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                    }
+                }
+            });
+        });
+    </script>
+
+
+    <!-- project own custom js -->
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
